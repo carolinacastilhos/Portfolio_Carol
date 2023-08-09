@@ -5,10 +5,17 @@
   padding: 10rem 0;
 }
 
+:root {
+  --navbarbg: #012538;
+  --titlescolor: black;
+  --details: #ae445a;
+  --footer: #264c6b;
+}
+
 .bgimage {
   height: 100vh;
   position: relative;
-  background: url("img/heroImagem.jpg");
+  background: url("img/heroImage8.jpg");
   /* apertar ctrl + espaço para poder selecionar a pasta dentro do url("") */
   background-size: cover;
 }
@@ -27,12 +34,13 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--titlescolor);
 }
 
 /* imagem sobre mim */
 .aboutImage {
   width: 100%;
+  border-radius: 24px;
 }
 
 .servicesText.card {
@@ -51,16 +59,23 @@
   text-align: center;
 }
 
-.card:hover .servicesIcon {
-  color: #008000;
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
 }
 
 .servicesText:hover {
-  border: 1px solid #008000;
+  transform: scale(1.1);
+  box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
 }
 
 .navbar {
-  background-color: #006342;
+  background-color: var(--navbarbg);
+  /* #264c6b  #f39f5a #ae445a*/
 }
 
 .navbar a {
@@ -76,11 +91,11 @@
 
 .contactIcon {
   font-size: 2.5rem;
-  color: #006342;
+  color: var(--details);
 }
 
 footer {
-  background-color: #003020;
+  background-color: var(--footer);
 }
 
 .footerIcon {
@@ -93,7 +108,7 @@ footer {
 }
 
 .footerDev {
-  background-color: #006342;
+  background-color: var(--navbarbg);
 }
 
 .glass {
