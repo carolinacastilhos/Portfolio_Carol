@@ -10,6 +10,7 @@
   --titlescolor: black;
   --details: #ae445a;
   --footer: #264c6b;
+  --button: #264c6bc0;
 }
 
 p,
@@ -90,24 +91,9 @@ p,
   -moz-box-shadow: 11px 10px 31px -8px rgba(0, 0, 0, 0.75);
 }
 
-#projetos .card {
+/* #projetos .card {
   max-width: 420px;
-}
-
-#projetos .cardBody {
-  overflow: hidden;
-  transition: all 0.5;
-}
-
-#projetos .card img {
-  width: 420px;
-  opacity: 0.7;
-  transition: all 0.5;
-}
-
-#projetos .card img:hover {
-  opacity: 1;
-}
+} */
 
 #projetos h3 {
   font-family: "Archivo Narrow", sans-serif;
@@ -129,14 +115,25 @@ p,
   list-style: none;
 }
 
-#projetos a {
-  text-decoration: none;
-  color: var(--details);
+#projetos button {
+  border: none;
+  border-radius: 24px;
+  padding: 8px;
+  background-color: var(--footer);
 }
 
-#projetos a:hover {
-  text-decoration: bold;
-  color: var(--navbarbg);
+#projetos button:hover {
+  /* box-shadow: 10px 10px 41px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 41px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 41px -3px rgba(0, 0, 0, 0.75); */
+  background-color: var(--button);
+}
+
+#projetos a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  color: white;
 }
 
 /* .servicesText:hover {
@@ -162,9 +159,16 @@ p,
   border-radius: 4px;
 }
 
+#contato .servicesText.card {
+  height: 200px;
+  width: 280px;
+  padding: 5px;
+}
+
 .contactIcon {
   font-size: 2.5rem;
   color: var(--details);
+  padding: 8px;
 }
 
 footer {
