@@ -1,6 +1,8 @@
-<h1 align="center"> Carolina Castilhos' Portfolio </h1>
+<h1 align="center">Portfolio</h1>
 
-<!-- Portfolio para mostrar habilidades desenvolvimento de aplicação de uma fintech com serviços de criação de conta, depósito e saque de nome fictício ImaPay, desenvolvido pelo grupo Code Breakers no programa de formação de desenvolvedores -->
+_<p align="center">Portfolio para apresentação das habilidades e dos projetos realizados</p>_
+
+Este portfolio apresenta
 
 <!-- Para conhecer a aplicação, clique aqui: [ImaPay - site](https://imapay.netlify.app/) -->
 
